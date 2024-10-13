@@ -1,0 +1,100 @@
+/* .gradient{
+  background-image: linear-gradient(10deg,#f6f6f688 0%, #e4e4e488 60%, #dadada88 100%), linear-gradient(-30deg,#f6f6f688 0%, #e4e4e488 60%, #dadada88 100%);
+  background-size: 400% 400%;
+	height: 100vh;
+
+}
+
+@keyframes gradient-animation {
+	0%{
+    background-position: 0% 100%;
+  }
+  100%{
+    background-position: 100% 0%;
+  }
+}
+
+.shine-gradient {
+  background-image: linear-gradient(to top right, transparent 0%, transparent 48%, white 51%, white 51.5%, transparent 54.5%, transparent 100%);
+  background-size: 150% 300%;
+  background-repeat: no-repeat;
+  background-position: center -25%;
+}
+
+@keyframes shine-gradient-animation {
+	0% {
+    background-position: center -40%;
+  }
+  100% {
+    background-position: center 130%;
+  }
+}
+
+.texture {
+  background-image: repeating-linear-gradient(transparent 3px,  #eee 10px),
+                    repeating-linear-gradient(0.25turn, transparent 5px, #999 10px);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gradient{
+  background-image: linear-gradient(10deg,#ea46b0 0%, #f46ec5 60%, #f3a9d9 100%), linear-gradient(-30deg,#ea46b0 0%, #f46ec5 60%, #f3a9d9 100%);
+  background-size: 400% 400%;
+	animation: gradient-animation 3s ease alternate infinite;
+	height: 100vh;
+
+}
+
+@keyframes gradient-animation {
+	0%{
+    background-position: 0% 100%;
+  }
+  100%{
+    background-position: 100% 0%;
+  }
+}
+
+.shine-gradient {
+  background-image: linear-gradient(to top right, transparent 0%, transparent 48%, white 51%, white 51.5%, transparent 54.5%, transparent 100%);
+  background-size: 150% 300%;
+  background-repeat: no-repeat;
+  background-position: center -25%;
+  animation: shine-gradient-animation 2s infinite;
+}
+
+@keyframes shine-gradient-animation {
+	0% {
+    background-position: center -40%;
+  }
+  100% {
+    background-position: center 130%;
+  }
+}
+
+
+
+
+
+
+
+
